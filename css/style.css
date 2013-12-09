@@ -1,0 +1,54 @@
+body{width: 1280px;height: 720px;}
+.page{display: none;position: absolute;}
+#homePage{width: 1280px;height: 720px;left:0;z-index: 10;top:0;}
+#info{width: 1280px;height: 720px;left:0;z-index: 11;top:0;background:#fff;}
+
+#home_z1,#home_z2,#home_z3{width:300px;height: 500px;float: left;border: 1px #bbbbbb solid;border-radius: 10px;margin-right: 50px;padding: 20px;}
+a{text-decoration: none;}
+.zone1,.zone2,.zone3{display: block;text-align: center;height: 50px;padding-top: 25px;border: 5px #b3b3b3 solid;border-radius: 5px;margin-bottom: 10px;}
+.zone1{width:50px;margin-right: 5px;float: left;}
+.zone1On,.zone2On,.zone3On{border: 5px #a52a2a solid;color: #b8860b;}
+a.zone1:hover{border: 5px #a52a2a solid;color: #b8860b;}
+a.zone2:hover{border: 5px #a52a2a solid;color: #b8860b;}
+a.zone3:hover{border: 5px #a52a2a solid;color: #b8860b;}
+
+.contentBox{float:left;margin-left: 50px;width: 450px;height: 350px;}
+.wrapContentBox{clear: both;width: 950px;height: 200px;}
+.animateBox{overflow: hidden;border: 3px solid #cd5c5c;border-radius: 5px;padding-top: 15px;height: 145px;}
+.animateField{overflow: hidden;width: 918px;}
+.contentBox fieldset{border-radius: 5px;border-color: #cd5c5c;}
+.legText{font-size: 18px;color: #b8860b;}
+.item{float:left;border-radius: 5px;text-align: center;margin-bottom: 15px;background: #A9D0F5;}
+#homeZone1{width:420px;}
+#homeZone2{width:400px;}
+#homeZone3{width:850px;}
+#homeZone4{width:850px;}
+#infoZone1{width:420px;}
+#animateZone{width:10000000px;position: relative;left:25px;}
+#scrollZone2{width:500px;height: 300px;overflow: hidden;border: 3px solid #cd5c5c;border-radius: 5px;margin-top: 20px;margin-bottom: 20px;padding-top: 40px;}
+.scroll2Box{height: 10000000px;}
+#homeZone1 .item{width: 120px;height: 120px;margin-left: 14px;}
+#homeZone2 .item{width: 80px;height: 120px;margin-left: 18px;}
+#homeZone3 .item{width: 150px;height: 120px;margin-left: 60px;}
+#homeZone4 .item{width: 150px;height: 120px;margin-left: 60px;}
+#animateZone .item{width: 150px;height: 120px;margin-left: 60px;}
+#scrollZone2 .item{width: 150px;height: 120px;margin-left: 60px;}
+#infoZone1 .item{width: 120px;height: 120px;margin-left: 14px;}
+.text{position:relative;font-weight: bold;color: #ff7d1a;top:50px;}
+#homeZone1 .defItem{}
+#homeZone1 .focItem{box-shadow:5px 10px 20px #999;color: #dc143c;background: #58FAAC;}
+#homeZone1 .focItem .text{color: #dc143c;}
+#homeZone2 .defItem{}
+#homeZone2 .focItem{box-shadow:5px 10px 20px #999;background: #58FAAC;}
+#homeZone3 .defItem{}
+#homeZone3 .focItem{box-shadow:5px 10px 20px #999;background: #58FAAC;}
+#homeZone4 .defItem{}
+#homeZone4 .focItem{box-shadow:5px 10px 20px #999;background: #58FAAC;}
+#animateZone .defItem{}
+#animateZone .focItem{box-shadow:5px 10px 20px #999;background: #58FAAC;}
+#scrollZone2 .defItem{}
+#scrollZone2 .focItem{box-shadow:5px 10px 20px #999;background: #58FAAC;}
+#infoZone1 .defItem{}
+#infoZone1 .focItem{box-shadow:5px 10px 20px #999;color: #dc143c;background: #58FAAC;}
+#infoZone1 .focItem .text{color: #dc143c;}
+
